@@ -1,0 +1,17 @@
+CREATE DATABASE EntreSinais;
+
+USE EntreSinais;
+
+CREATE TABLE login (
+idLogin INT PRIMARY KEY AUTO_INCREMENT,
+email VARCHAR(45),
+senha VARCHAR(45) 
+) AUTO_INCREMENT = 1;
+
+CREATE TABLE usuario (
+idUsuario INT PRIMARY KEY AUTO_INCREMENT,
+nomeCompleto VARCHAR(45),
+nickname VARCHAR(45),
+telefone VARCHAR(14),
+dataNascimento VARCHAR(45)
+) AUTO_INCREMENT = 1;
