@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(imagens/img-fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: rgb(16, 66, 113);
+}
+
+.logo{
+    height: 60px;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.conteudo-inicial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.conteudo-inicial-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.botao{
+    background-color: rgb(16, 66, 113);
+    width: 300px;
+    height: 80px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(109, 103, 103);
+    border-radius: 40px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 20px;
+    color: aliceblue    ;
+}
+
+.botao:hover{
+    background-color: #d9b098;
+}
+
+.imagem-inicio{
+    height: 500px;
+    width: 500px;
+    border-radius: 70%;
+    border: 25px solid #d4aa93;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.sobre{
+    background-color: rgb(16, 66, 113);
+    color: aliceblue;
+    height: 180px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.conteudo-sobre{
+    padding-top: 80px;
+}
+
+.conteudo-sobre-escrito{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3e2d8;
+    border-bottom: 200px;
+    padding-bottom: 60px;
+}
+
+.sobre-subtitulo{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 45px;
+}
+
+.porque-entre-sinais{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobre-texto{
+    background-color: #d4aa93;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+.mapa-brasil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quantidade-surdos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-ouvido{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dez-milhoes, .dois-milhoes{
+    font-size: 50px;
+}
+
+.brasileiros-deficiencia, .surdos-profundos{
+    font-weight: 200;
+}
+
+.conteudo-curiosidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    height: 800px;
+    background-color: #f3e2d8;
+    gap: 40px;
+    /*border-top: 1px solid black;*/
+    padding: 70px;
+}
+
+.lado-direito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(16, 66, 113);
+    width: 1000px;
+    height: 650px;
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 50px;
+    gap: 10px;
+}
+
+.bloco-um{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.bloco-dois{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.bloco{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imagem-curiosidades{
+    height: 50px;
+    width: 50px;
+}
+
+.textinhos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 10px;
+}
+
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.maos-curiosidades{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.titulo-principal-curiosidades{
+    font-size: 80px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menina-curiosidades{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 300px;
+}
+
+.titulo-curiosidades{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.texto-curiosidades{
+    font-weight: 600;
+}
