@@ -274,12 +274,6 @@ body{
     align-items: center;
 }
 
-.bloco-titulo-alfabeto{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .titulo-alfabeto{
     background-color: rgb(16, 66, 113);
     height: 170px;
@@ -325,5 +319,341 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
+}
+
+.conteudo-recomendacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo-recomendacoes{
+    background-color: rgb(16, 66, 113);
+    color: aliceblue;
+    height: 130px;
+    width: 600px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 60px;
+    margin-left: 450px;
+    margin-bottom: 80px;
+}
+
+.blocos-recomendacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloquinho-recomendacoes{
+    font-size: 10px;
+    margin: 30px;
+    background-color: rgb(16, 66, 113);
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.bloquinho-recomendacoes h2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.bloquinho-recomendacoes h3{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.imagem-neto-libras{
+    width: 110px;
+    height: 90px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 1px;
+}
+
+.imagem-academia-libras{
+    height: 90px;
+    width: 95px;
+    margin-left: 110px;
+}
+
+.imagem-escola-virtual-gov{
+    width: 110px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.imagem-hand-talk{
+    height: 50px;
+    width: 150px;
+    margin-left: 80px;
+}
+
+.icon-youtube{
+    height: 60px;
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.icon-youtube2{
+    height: 60px;
+    width: 90px;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.icon-site{
+    height: 70px;
+    width: 90px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.icon-app{
+    height: 90px;
+    width: 60px;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+.conteudo-sobre-mim{
+    display: flex;
+    flex-direction: row;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+
+.parte-texto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.titulo-sobre-mim{
+    font-size: 80px;
+    width: 500px;
+    height: 130px;
+    display: flex;
+    border-radius: 30px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 120px;
+    justify-content: center;
+    margin-left: 60px;
+    background-color: rgb(16, 66, 113);
+    align-items: center;
+    margin-top: 100px;
+}
+
+.texto-sobre-mim{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #d9b098;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.parte-imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.foto-imagem-sobre-mim{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.quem-sou{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 90px;
+}
+
+.minha-foto{
+    height: 300px;
+    width: 250px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    border: 15px solid rgb(16, 66, 113);
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.foto-grupo{
+    height: 300px;
+    width: 550px;
+    margin-left: 200px;
+}
+
+.conteudo-depoimentos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-depoimentos{
+    background-color: rgb(16, 66, 113);
+    height: 100px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: aliceblue;
+    border-radius: 80px;
+    margin-left: 80px;
+}
+
+.blocos-containers{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+.container-esquerdo-depoimentos{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-direito-depoimentos{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.foto-marcos{
+    height: 100px;
+    border-radius: 100px;
+    width: 105px;
+}
+
+.foto-magnus{
+    height: 100px;
+    border-radius: 100px;
+    width: 100px;
+}
+
+.foto-marta{
+   height: 100px;
+   width: 100px;
+   border-radius: 70px;
+}
+
+.foto-giovanni{
+    height: 100px;
+    border-radius: 60px;
+}
+
+.foto-ana{
+    height: 100px;
+    border-radius: 60px;
+}
+
+.foto-geneilson{
+    height: 100px;
+    border-radius: 60px;
+    width: 100px;
+}
+
+.depoimento{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    height: 150px;
+}
+
+.marcos-texto{
+    background-color: #b27655;
+    border-radius: 30px;
+    height: 140px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.magnus-texto{
+    background-color: #b27655;
+    border-radius: 30px;
+    width: 520px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marta-texto{
+    background-color: #b27655;
+    border-radius: 30px;
+    width: 550px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.giovanni-texto{
+    background-color: #b27655;
+    border-radius: 30px;
+    width: 520px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ana-texto{
+    background-color: #b27655;
+    border-radius: 30px;
+    width: 520px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geneilson-texto{
+    background-color: #b27655;
+    border-radius: 30px;
+    width: 520px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
